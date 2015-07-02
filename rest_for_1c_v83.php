@@ -46,7 +46,7 @@ if(isset($_POST['URL'])) $URL = $_POST['URL'];
 				CURLOPT_URL => $URL,
 				CURLOPT_RETURNTRANSFER => true,
 				CURLOPT_POST => true,
-				CURLOPT_USERPWD => "web:webwebweb",
+				CURLOPT_USERPWD => "***:*********",
 				CURLOPT_POSTFIELDS => $POSTFIELDS
 		));
 		$response = curl_exec($myCurl);	
